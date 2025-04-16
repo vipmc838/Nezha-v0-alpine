@@ -65,11 +65,11 @@ pre_check() {
     
     ## China_IP
     if [[ -z "${CN}" ]]; then
-        GITHUB_RAW_URL="raw.githubusercontent.com/applexad/nezhascript/main"
+        GITHUB_RAW_URL="raw.githubusercontent.com/vipmc838/Nezha-v0-alpine/main"
         GITHUB_URL="github.com"
         GITHUB_RELEASE_URL="github.com/applexad/nezha-binary-build/releases/latest/download"
     else
-        GITHUB_RAW_URL="external.githubfast.com/https/raw.githubusercontent.com/applexad/nezhascript/main"
+        GITHUB_RAW_URL="external.githubfast.com/https/raw.githubusercontent.com/vipmc838/Nezha-v0-alpine/main"
         GITHUB_URL="githubfast.com"
         GITHUB_RELEASE_URL="githubfast.com/applexad/nezha-binary-build/releases/latest/download"
     fi
@@ -371,7 +371,7 @@ show_usage() {
 show_menu() {
     echo -e "
     ${green}哪吒监控管理脚本${plain} ${red}${NZ_VERSION}${plain}
-    --- https://github.com/applexad/nezhascript ---
+    --- https://github.com/vipmc838/Nezha-v0-alpine ---
     ${green}1.${plain}  安装面板端
     ${green}2.${plain}  修改面板配置
     ${green}3.${plain}  启动面板
