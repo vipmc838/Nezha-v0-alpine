@@ -4,12 +4,12 @@
 运行（如sudo无法正常使用且已经有root权限，请去掉sudo运行）：
 
 ```
-curl -L https://raw.githubusercontent.com/applexad/nezhascript/main/install.sh  -o nezha.sh && chmod +x nezha.sh && sudo ./nezha.sh
+curl -L https://raw.githubusercontent.com/vipmc838/Nezha-v0-alpine/main/install.sh -o nezha.sh && chmod +x nezha.sh && sudo ./nezha.sh
 ```
 
 大陆加速代理：
 ```
-curl -L https://raw.fgit.cf/applexad/nezhascript/main/install.sh  -o nezha.sh && chmod +x nezha.sh && sudo ./nezha.sh
+curl -L https://raw.fgit.cf/applexad/nezhascript/main/install.sh -o nezha.sh && chmod +x nezha.sh && sudo ./nezha.sh
 ```
 
 具体用法可参考[官方教程](https://nezha.wiki/guide/dashboard.html)
